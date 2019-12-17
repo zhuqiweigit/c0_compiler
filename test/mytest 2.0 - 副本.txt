@@ -1,0 +1,162 @@
+const int  a2 = +2, a3 = 0;  
+const int _a = 4;
+const char b1 = 'a', b2c_ = 'B';
+const char b3 = '*';
+int a1 ,c, c1[8], c2;  
+char d, d1[10], d2;
+char g3[100];
+
+int add(int a, int b){
+    int c;
+    c = a + b;
+    return (c);  
+}
+
+int mult(int a, int b){
+    return (a * b);
+}
+
+void Fnull1(){  
+
+}
+void Fnull2(){
+  return;
+}
+
+void Fnull3(){
+ ;
+}
+
+char move1(char c){   
+    const int c3 = 1;
+    int c4;
+    c4 =add(c3,c);
+    return (c4);
+}
+
+int fact(int h){
+   if(h <= 1){
+    return (1);
+   }
+   else {
+    return (h * fact(h - 1));
+   }
+}
+
+
+void main()
+{
+   const char endchar = 'Z';
+   int e1, e2, e3, e4[20], i;
+   char g1, g2[10];
+   char g3[100];
+
+    e1 = 1; e2 = 0; e3 = 0; i = 0;
+    g1 = 'a';
+
+   printf(b3);
+   for(i = 1; i < 6; i = i + 1){
+
+       g3[i] = 'a' + i;    
+
+   }
+
+
+   for(i = 0; i < 5; i = i + 1){
+
+      printf(g3[i+1]);  
+
+   }
+
+
+   g3[0] = '_';
+
+
+   g3[11] = 'k';
+   g3[12] = 'l';
+   g3[13] = 'm';
+   g3[14] = 'n';
+   g3[15] = 'o';
+   g3[16] = 'p';
+   g3[17] = 'q';
+   g3[18] = 'r';
+   g3[19] = 's';
+   g3[20] = 't';
+   g3[21] = 'u';
+ 
+   printf(b3);
+   for(i = 1 + 2+-3; i < 10; i = i + 1){   
+      e4[i] = ((i + i * 3) - 4 * i / 4 ) /3; 
+      printf("e4[i]", e4[i]);
+   }
+
+   printf(b3);
+   for(a1 = 0; a1 < 10; a1 = a1 + 1){  
+      
+	e4[a1] = a1 * a1;
+        printf(e4[a1]);
+
+   }
+   printf(b3);
+  for(c = 0; c < 10; c = c + 1){    
+
+     d1[c] = 'a' + c;
+     printf(d1[c]);
+
+  }  
+  printf(b3);
+
+   g2[0] = endchar;
+
+   i = 1;
+   do {
+
+     g2[i] = -1 + g2[i - 1];
+      
+      printf(g2[i]);
+     i = i - -1;
+
+   }while(i < 10)
+    ; 
+   scanf(e1);  
+
+   if(e1){
+      printf("fact ", fact(e1));
+   }else{
+      scanf(e2,e3);  
+      printf("add"); 
+      printf("");  
+      printf( add(e2, e3));
+
+   }
+
+   for(i = 20; i > 10; i = i - 1){
+     printf("  ");
+     printf( g3[i] - 'a');
+   }
+
+   scanf(e1);
+
+   if(e1 < 0);
+   else;
+
+   if(e1 == 0);
+
+   if(e1 >= 0){
+    printf("e1>=0");
+   }
+
+   for(i = 100; i > 0; i = i - 1);
+   i = -1;
+   do;while(i > 0);
+
+   if(i != -1);
+
+   Fnull1();
+   Fnull2();
+   Fnull3();
+   mult(2, 3);  
+   g1 = move1('b');
+
+   printf("move1 ", g1);
+}

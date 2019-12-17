@@ -1,0 +1,1036 @@
+.data
+string0: .asciiz "e4[i]"
+string1: .asciiz "fact "
+string2: .asciiz "add"
+string3: .asciiz ""
+string4: .asciiz "  "
+string5: .asciiz "e1>=0"
+string6: .asciiz "move1 "
+.text
+add $ra, $zero, $zero
+addi $fp, $zero, 268697600
+addi $sp, $zero, 268698160
+jal func_main
+j end
+func_add:
+sw $ra, 0($sp)
+sw $fp, 4($sp)
+subi $t0, $sp,8
+sw $t0, 8($sp)
+add $fp, $zero, $sp
+sw $s0, 12($sp)
+sw $s1, 16($sp)
+sw $s2, 20($sp)
+sw $s3, 24($sp)
+sw $s4, 28($sp)
+sw $s5, 32($sp)
+sw $s6, 36($sp)
+sw $s7, 40($sp)
+addi $sp, $sp, 60
+lw $t9,-8($fp)
+sw $t9,44($fp)
+lw $t9,-4($fp)
+sw $t9,48($fp)
+lw $t0, 44($fp)
+lw $t1, 48($fp)
+add $t2,$t0,$t1
+lw $t3, 52($fp)
+add $t3, $zero, $t2
+add $v1, $zero, $t3
+sw $t0,44($fp)
+sw $t1,48($fp)
+sw $t2,56($fp)
+sw $t3,52($fp)
+lw $ra, 0($fp)
+lw $s0, 12($fp)
+lw $s1, 16($fp)
+lw $s2, 20($fp)
+lw $s3, 24($fp)
+lw $s4, 28($fp)
+lw $s5, 32($fp)
+lw $s6, 36($fp)
+lw $s7, 40($fp)
+lw $sp, 8($fp)
+lw $fp, 4($fp)
+jr $ra
+lw $ra, 0($fp)
+lw $s0, 12($fp)
+lw $s1, 16($fp)
+lw $s2, 20($fp)
+lw $s3, 24($fp)
+lw $s4, 28($fp)
+lw $s5, 32($fp)
+lw $s6, 36($fp)
+lw $s7, 40($fp)
+lw $sp, 8($fp)
+lw $fp, 4($fp)
+jr $ra
+func_mult:
+sw $ra, 0($sp)
+sw $fp, 4($sp)
+subi $t0, $sp,8
+sw $t0, 8($sp)
+add $fp, $zero, $sp
+sw $s0, 12($sp)
+sw $s1, 16($sp)
+sw $s2, 20($sp)
+sw $s3, 24($sp)
+sw $s4, 28($sp)
+sw $s5, 32($sp)
+sw $s6, 36($sp)
+sw $s7, 40($sp)
+addi $sp, $sp, 56
+lw $t9,-8($fp)
+sw $t9,44($fp)
+lw $t9,-4($fp)
+sw $t9,48($fp)
+lw $t0, 44($fp)
+lw $t1, 48($fp)
+mul $t2,$t0,$t1
+add $v1, $zero, $t2
+sw $t0,44($fp)
+sw $t1,48($fp)
+sw $t2,52($fp)
+lw $ra, 0($fp)
+lw $s0, 12($fp)
+lw $s1, 16($fp)
+lw $s2, 20($fp)
+lw $s3, 24($fp)
+lw $s4, 28($fp)
+lw $s5, 32($fp)
+lw $s6, 36($fp)
+lw $s7, 40($fp)
+lw $sp, 8($fp)
+lw $fp, 4($fp)
+jr $ra
+lw $ra, 0($fp)
+lw $s0, 12($fp)
+lw $s1, 16($fp)
+lw $s2, 20($fp)
+lw $s3, 24($fp)
+lw $s4, 28($fp)
+lw $s5, 32($fp)
+lw $s6, 36($fp)
+lw $s7, 40($fp)
+lw $sp, 8($fp)
+lw $fp, 4($fp)
+jr $ra
+func_Fnull1:
+sw $ra, 0($sp)
+sw $fp, 4($sp)
+subi $t0, $sp,0
+sw $t0, 8($sp)
+add $fp, $zero, $sp
+sw $s0, 12($sp)
+sw $s1, 16($sp)
+sw $s2, 20($sp)
+sw $s3, 24($sp)
+sw $s4, 28($sp)
+sw $s5, 32($sp)
+sw $s6, 36($sp)
+sw $s7, 40($sp)
+addi $sp, $sp, 44
+lw $ra, 0($fp)
+lw $s0, 12($fp)
+lw $s1, 16($fp)
+lw $s2, 20($fp)
+lw $s3, 24($fp)
+lw $s4, 28($fp)
+lw $s5, 32($fp)
+lw $s6, 36($fp)
+lw $s7, 40($fp)
+lw $sp, 8($fp)
+lw $fp, 4($fp)
+jr $ra
+func_Fnull2:
+sw $ra, 0($sp)
+sw $fp, 4($sp)
+subi $t0, $sp,0
+sw $t0, 8($sp)
+add $fp, $zero, $sp
+sw $s0, 12($sp)
+sw $s1, 16($sp)
+sw $s2, 20($sp)
+sw $s3, 24($sp)
+sw $s4, 28($sp)
+sw $s5, 32($sp)
+sw $s6, 36($sp)
+sw $s7, 40($sp)
+addi $sp, $sp, 44
+lw $ra, 0($fp)
+lw $s0, 12($fp)
+lw $s1, 16($fp)
+lw $s2, 20($fp)
+lw $s3, 24($fp)
+lw $s4, 28($fp)
+lw $s5, 32($fp)
+lw $s6, 36($fp)
+lw $s7, 40($fp)
+lw $sp, 8($fp)
+lw $fp, 4($fp)
+jr $ra
+lw $ra, 0($fp)
+lw $s0, 12($fp)
+lw $s1, 16($fp)
+lw $s2, 20($fp)
+lw $s3, 24($fp)
+lw $s4, 28($fp)
+lw $s5, 32($fp)
+lw $s6, 36($fp)
+lw $s7, 40($fp)
+lw $sp, 8($fp)
+lw $fp, 4($fp)
+jr $ra
+func_Fnull3:
+sw $ra, 0($sp)
+sw $fp, 4($sp)
+subi $t0, $sp,0
+sw $t0, 8($sp)
+add $fp, $zero, $sp
+sw $s0, 12($sp)
+sw $s1, 16($sp)
+sw $s2, 20($sp)
+sw $s3, 24($sp)
+sw $s4, 28($sp)
+sw $s5, 32($sp)
+sw $s6, 36($sp)
+sw $s7, 40($sp)
+addi $sp, $sp, 44
+lw $ra, 0($fp)
+lw $s0, 12($fp)
+lw $s1, 16($fp)
+lw $s2, 20($fp)
+lw $s3, 24($fp)
+lw $s4, 28($fp)
+lw $s5, 32($fp)
+lw $s6, 36($fp)
+lw $s7, 40($fp)
+lw $sp, 8($fp)
+lw $fp, 4($fp)
+jr $ra
+func_move1:
+sw $ra, 0($sp)
+sw $fp, 4($sp)
+subi $t0, $sp,4
+sw $t0, 8($sp)
+add $fp, $zero, $sp
+sw $s0, 12($sp)
+sw $s1, 16($sp)
+sw $s2, 20($sp)
+sw $s3, 24($sp)
+sw $s4, 28($sp)
+sw $s5, 32($sp)
+sw $s6, 36($sp)
+sw $s7, 40($sp)
+addi $sp, $sp, 60
+lw $t9,-4($fp)
+sw $t9,44($fp)
+addi $t0, $zero,1
+add $t8, $zero, $t0
+sw $t8, 0($sp)
+addi $sp, $sp, 4
+lw $t1, 44($fp)
+add $t8, $zero, $t1
+sw $t8, 0($sp)
+addi $sp, $sp, 4
+sw $t1,44($fp)
+jal func_add
+sw $v1, 56($fp)
+lw $t0, 56($fp)
+lw $t1, 52($fp)
+add $t1, $zero, $t0
+add $v1, $zero, $t1
+sw $t0,56($fp)
+sw $t1,52($fp)
+lw $ra, 0($fp)
+lw $s0, 12($fp)
+lw $s1, 16($fp)
+lw $s2, 20($fp)
+lw $s3, 24($fp)
+lw $s4, 28($fp)
+lw $s5, 32($fp)
+lw $s6, 36($fp)
+lw $s7, 40($fp)
+lw $sp, 8($fp)
+lw $fp, 4($fp)
+jr $ra
+lw $ra, 0($fp)
+lw $s0, 12($fp)
+lw $s1, 16($fp)
+lw $s2, 20($fp)
+lw $s3, 24($fp)
+lw $s4, 28($fp)
+lw $s5, 32($fp)
+lw $s6, 36($fp)
+lw $s7, 40($fp)
+lw $sp, 8($fp)
+lw $fp, 4($fp)
+jr $ra
+func_fact:
+sw $ra, 0($sp)
+sw $fp, 4($sp)
+subi $t0, $sp,4
+sw $t0, 8($sp)
+add $fp, $zero, $sp
+sw $s0, 12($sp)
+sw $s1, 16($sp)
+sw $s2, 20($sp)
+sw $s3, 24($sp)
+sw $s4, 28($sp)
+sw $s5, 32($sp)
+sw $s6, 36($sp)
+sw $s7, 40($sp)
+addi $sp, $sp, 64
+lw $t9,-4($fp)
+sw $t9,44($fp)
+lw $t0, 44($fp)
+addi $t1, $zero,1
+add $t2, $zero, $zero
+sub $t9,$t0,$t1
+bgtz $t9,jtag0
+addi $t2, $zero, 1
+jtag0:
+addi $t9, $zero, 0
+sw $t0,44($fp)
+sw $t2,48($fp)
+beq $t2, $t9,tag0
+addi $t0, $zero,1
+add $v1, $zero, $t0
+lw $ra, 0($fp)
+lw $s0, 12($fp)
+lw $s1, 16($fp)
+lw $s2, 20($fp)
+lw $s3, 24($fp)
+lw $s4, 28($fp)
+lw $s5, 32($fp)
+lw $s6, 36($fp)
+lw $s7, 40($fp)
+lw $sp, 8($fp)
+lw $fp, 4($fp)
+jr $ra
+j, tag1
+tag0:
+lw $t0, 44($fp)
+addi $t1, $zero,1
+sub $t2,$t0,$t1
+add $t8, $zero, $t2
+sw $t8, 0($sp)
+addi $sp, $sp, 4
+sw $t0,44($fp)
+sw $t2,52($fp)
+jal func_fact
+sw $v1, 56($fp)
+lw $t0, 44($fp)
+lw $t1, 56($fp)
+mul $t2,$t0,$t1
+add $v1, $zero, $t2
+sw $t0,44($fp)
+sw $t1,56($fp)
+sw $t2,60($fp)
+lw $ra, 0($fp)
+lw $s0, 12($fp)
+lw $s1, 16($fp)
+lw $s2, 20($fp)
+lw $s3, 24($fp)
+lw $s4, 28($fp)
+lw $s5, 32($fp)
+lw $s6, 36($fp)
+lw $s7, 40($fp)
+lw $sp, 8($fp)
+lw $fp, 4($fp)
+jr $ra
+tag1:
+lw $ra, 0($fp)
+lw $s0, 12($fp)
+lw $s1, 16($fp)
+lw $s2, 20($fp)
+lw $s3, 24($fp)
+lw $s4, 28($fp)
+lw $s5, 32($fp)
+lw $s6, 36($fp)
+lw $s7, 40($fp)
+lw $sp, 8($fp)
+lw $fp, 4($fp)
+jr $ra
+func_main:
+sw $ra, 0($sp)
+sw $fp, 4($sp)
+subi $t0, $sp,0
+sw $t0, 8($sp)
+add $fp, $zero, $sp
+sw $s0, 12($sp)
+sw $s1, 16($sp)
+sw $s2, 20($sp)
+sw $s3, 24($sp)
+sw $s4, 28($sp)
+sw $s5, 32($sp)
+sw $s6, 36($sp)
+sw $s7, 40($sp)
+addi $sp, $sp, 756
+lw $s0, 48($fp)
+lw $s0, 140($fp)
+addi $t0, $zero,1
+add $s0, $zero, $t0
+addi $t1, $zero,0
+lw $t2, 52($fp)
+add $t2, $zero, $t1
+addi $t3, $zero,0
+lw $t4, 56($fp)
+add $t4, $zero, $t3
+addi $t5, $zero,0
+add $s0, $zero, $t5
+addi $t6, $zero,97
+lw $t0, 144($fp)
+add $t0, $zero, $t6
+addi $t1, $zero,42
+add $a0, $zero, $t1
+addi $v0, $zero, 11
+syscall
+sw $t2,52($fp)
+addi $t2, $zero,1
+add $s0, $zero, $t2
+sw $t0,144($fp)
+sw $t4,56($fp)
+tag5:
+addi $t0, $zero,6
+add $t1, $zero, $zero
+sub $t9,$s0,$t0
+bgez $t9,jtag1
+addi $t1, $zero, 1
+jtag1:
+addi $t9, $zero, 0
+sw $t1,588($fp)
+beq $t1, $t9,tag2
+lw $t0, 588($fp)
+addi $t9, $zero, 1
+sw $t0,588($fp)
+beq $t0, $t9,tag3
+tag4:
+addi $t0, $zero,1
+add $s0,$s0,$t0
+j, tag5
+tag3:
+addi $t0, $zero,97
+add $t1,$t0,$s0
+add $t7, $zero, $s0
+addi $t8, $zero, 4
+mul $t7, $t7, $t8
+addi $t7, $t7, 188
+add $t7, $t7, $fp
+add $t9, $t7, $zero
+add $t8, $zero, $t1
+sw $t8, 0($t9)
+sw $t1,592($fp)
+j, tag4
+tag2:
+addi $t0, $zero,0
+add $s0, $zero, $t0
+tag9:
+addi $t0, $zero,5
+add $t1, $zero, $zero
+sub $t9,$s0,$t0
+bgez $t9,jtag2
+addi $t1, $zero, 1
+jtag2:
+addi $t9, $zero, 0
+sw $t1,596($fp)
+beq $t1, $t9,tag6
+lw $t0, 596($fp)
+addi $t9, $zero, 1
+sw $t0,596($fp)
+beq $t0, $t9,tag7
+tag8:
+addi $t0, $zero,1
+add $s0,$s0,$t0
+j, tag9
+tag7:
+addi $t0, $zero,1
+add $t1,$s0,$t0
+add $t7, $zero, $t1
+addi $t8, $zero, 4
+mul $t7, $t7, $t8
+addi $t7, $t7, 188
+add $t7, $t7, $fp
+add $t9, $t7, $zero
+lw $t8, 0($t9)
+add $t2, $zero, $t8
+add $a0, $zero, $t2
+addi $v0, $zero, 11
+syscall
+sw $t1,600($fp)
+sw $t2,604($fp)
+j, tag8
+tag6:
+addi $t7, $zero, 0
+addi $t8, $zero, 4
+mul $t7, $t7, $t8
+addi $t7, $t7, 188
+add $t7, $t7, $fp
+add $t9, $t7, $zero
+addi $t0, $zero,95
+add $t8, $zero, $t0
+sw $t8, 0($t9)
+addi $t7, $zero, 11
+addi $t8, $zero, 4
+mul $t7, $t7, $t8
+addi $t7, $t7, 188
+add $t7, $t7, $fp
+add $t9, $t7, $zero
+addi $t1, $zero,107
+add $t8, $zero, $t1
+sw $t8, 0($t9)
+addi $t7, $zero, 12
+addi $t8, $zero, 4
+mul $t7, $t7, $t8
+addi $t7, $t7, 188
+add $t7, $t7, $fp
+add $t9, $t7, $zero
+addi $t2, $zero,108
+add $t8, $zero, $t2
+sw $t8, 0($t9)
+addi $t7, $zero, 13
+addi $t8, $zero, 4
+mul $t7, $t7, $t8
+addi $t7, $t7, 188
+add $t7, $t7, $fp
+add $t9, $t7, $zero
+addi $t3, $zero,109
+add $t8, $zero, $t3
+sw $t8, 0($t9)
+addi $t7, $zero, 14
+addi $t8, $zero, 4
+mul $t7, $t7, $t8
+addi $t7, $t7, 188
+add $t7, $t7, $fp
+add $t9, $t7, $zero
+addi $t4, $zero,110
+add $t8, $zero, $t4
+sw $t8, 0($t9)
+addi $t7, $zero, 15
+addi $t8, $zero, 4
+mul $t7, $t7, $t8
+addi $t7, $t7, 188
+add $t7, $t7, $fp
+add $t9, $t7, $zero
+addi $t5, $zero,111
+add $t8, $zero, $t5
+sw $t8, 0($t9)
+addi $t7, $zero, 16
+addi $t8, $zero, 4
+mul $t7, $t7, $t8
+addi $t7, $t7, 188
+add $t7, $t7, $fp
+add $t9, $t7, $zero
+addi $t6, $zero,112
+add $t8, $zero, $t6
+sw $t8, 0($t9)
+addi $t7, $zero, 17
+addi $t8, $zero, 4
+mul $t7, $t7, $t8
+addi $t7, $t7, 188
+add $t7, $t7, $fp
+add $t9, $t7, $zero
+addi $t0, $zero,113
+add $t8, $zero, $t0
+sw $t8, 0($t9)
+addi $t7, $zero, 18
+addi $t8, $zero, 4
+mul $t7, $t7, $t8
+addi $t7, $t7, 188
+add $t7, $t7, $fp
+add $t9, $t7, $zero
+addi $t1, $zero,114
+add $t8, $zero, $t1
+sw $t8, 0($t9)
+addi $t7, $zero, 19
+addi $t8, $zero, 4
+mul $t7, $t7, $t8
+addi $t7, $t7, 188
+add $t7, $t7, $fp
+add $t9, $t7, $zero
+addi $t2, $zero,115
+add $t8, $zero, $t2
+sw $t8, 0($t9)
+addi $t7, $zero, 20
+addi $t8, $zero, 4
+mul $t7, $t7, $t8
+addi $t7, $t7, 188
+add $t7, $t7, $fp
+add $t9, $t7, $zero
+addi $t3, $zero,116
+add $t8, $zero, $t3
+sw $t8, 0($t9)
+addi $t7, $zero, 21
+addi $t8, $zero, 4
+mul $t7, $t7, $t8
+addi $t7, $t7, 188
+add $t7, $t7, $fp
+add $t9, $t7, $zero
+addi $t4, $zero,117
+add $t8, $zero, $t4
+sw $t8, 0($t9)
+addi $t5, $zero,42
+add $a0, $zero, $t5
+addi $v0, $zero, 11
+syscall
+addi $t6, $zero,0
+add $s0, $zero, $t6
+tag13:
+addi $t0, $zero,10
+add $t1, $zero, $zero
+sub $t9,$s0,$t0
+bgez $t9,jtag3
+addi $t1, $zero, 1
+jtag3:
+addi $t9, $zero, 0
+sw $t1,608($fp)
+beq $t1, $t9,tag10
+lw $t0, 608($fp)
+addi $t9, $zero, 1
+sw $t0,608($fp)
+beq $t0, $t9,tag11
+tag12:
+addi $t0, $zero,1
+add $s0,$s0,$t0
+j, tag13
+tag11:
+addi $t0, $zero,3
+mul $t1,$s0,$t0
+add $t2,$s0,$t1
+addi $t3, $zero,4
+mul $t4,$t3,$s0
+addi $t5, $zero,4
+div $t6,$t4,$t5
+sub $t0,$t2,$t6
+sw $t1,612($fp)
+addi $t1, $zero,3
+sw $t2,616($fp)
+div $t2,$t0,$t1
+add $t7, $zero, $s0
+addi $t8, $zero, 4
+mul $t7, $t7, $t8
+addi $t7, $t7, 60
+add $t7, $t7, $fp
+add $t9, $t7, $zero
+add $t8, $zero, $t2
+sw $t8, 0($t9)
+la $a0, string0
+addi $v0, $zero, 4
+syscall
+add $t7, $zero, $s0
+addi $t8, $zero, 4
+mul $t7, $t7, $t8
+addi $t7, $t7, 60
+add $t7, $t7, $fp
+add $t9, $t7, $zero
+lw $t8, 0($t9)
+add $t3, $zero, $t8
+add $a0, $zero, $t3
+addi $v0, $zero, 1
+syscall
+sw $t0,628($fp)
+sw $t2,632($fp)
+sw $t3,636($fp)
+sw $t4,620($fp)
+sw $t6,624($fp)
+j, tag12
+tag10:
+addi $t0, $zero,42
+add $a0, $zero, $t0
+addi $v0, $zero, 11
+syscall
+addi $t1, $zero,0
+add $s0, $zero, $t1
+tag17:
+addi $t0, $zero,10
+add $t1, $zero, $zero
+sub $t9,$s0,$t0
+bgez $t9,jtag4
+addi $t1, $zero, 1
+jtag4:
+addi $t9, $zero, 0
+sw $t1,640($fp)
+beq $t1, $t9,tag14
+lw $t0, 640($fp)
+addi $t9, $zero, 1
+sw $t0,640($fp)
+beq $t0, $t9,tag15
+tag16:
+addi $t0, $zero,1
+add $s0,$s0,$t0
+j, tag17
+tag15:
+mul $t0,$s0,$s0
+add $t7, $zero, $s0
+addi $t8, $zero, 4
+mul $t7, $t7, $t8
+addi $t7, $t7, 60
+add $t7, $t7, $fp
+add $t9, $t7, $zero
+add $t8, $zero, $t0
+sw $t8, 0($t9)
+add $t7, $zero, $s0
+addi $t8, $zero, 4
+mul $t7, $t7, $t8
+addi $t7, $t7, 60
+add $t7, $t7, $fp
+add $t9, $t7, $zero
+lw $t8, 0($t9)
+add $t1, $zero, $t8
+add $a0, $zero, $t1
+addi $v0, $zero, 1
+syscall
+sw $t0,644($fp)
+sw $t1,648($fp)
+j, tag16
+tag14:
+addi $t0, $zero,42
+add $a0, $zero, $t0
+addi $v0, $zero, 11
+syscall
+addi $t1, $zero,0
+add $s0, $zero, $t1
+tag21:
+addi $t0, $zero,10
+add $t1, $zero, $zero
+sub $t9,$s0,$t0
+bgez $t9,jtag5
+addi $t1, $zero, 1
+jtag5:
+addi $t9, $zero, 0
+sw $t1,652($fp)
+beq $t1, $t9,tag18
+lw $t0, 652($fp)
+addi $t9, $zero, 1
+sw $t0,652($fp)
+beq $t0, $t9,tag19
+tag20:
+addi $t0, $zero,1
+add $s0,$s0,$t0
+j, tag21
+tag19:
+addi $t0, $zero,97
+add $t1,$t0,$s0
+add $t7, $zero, $s0
+addi $t8, $zero, 4
+mul $t7, $t7, $t8
+addi $t8, $zero, 268697600
+addi $t7, $t7, 116
+add $t8, $t8, $t7
+add $t9, $zero, $t8
+add $t8, $zero, $t1
+sw $t8, 0($t9)
+add $t7, $zero, $s0
+addi $t8, $zero, 4
+mul $t7, $t7, $t8
+addi $t8, $zero, 268697600
+addi $t7, $t7, 116
+add $t8, $t8, $t7
+add $t9, $zero, $t8
+lw $t8, 0($t9)
+add $t2, $zero, $t8
+add $a0, $zero, $t2
+addi $v0, $zero, 11
+syscall
+sw $t1,656($fp)
+sw $t2,660($fp)
+j, tag20
+tag18:
+addi $t0, $zero,42
+add $a0, $zero, $t0
+addi $v0, $zero, 11
+syscall
+addi $t7, $zero, 0
+addi $t8, $zero, 4
+mul $t7, $t7, $t8
+addi $t7, $t7, 148
+add $t7, $t7, $fp
+add $t9, $t7, $zero
+addi $t1, $zero,90
+add $t8, $zero, $t1
+sw $t8, 0($t9)
+addi $t2, $zero,1
+add $s0, $zero, $t2
+tag22:
+addi $t0, $zero,1
+sub $t1, $zero,$t0
+addi $t2, $zero,1
+sub $t3,$s0,$t2
+add $t7, $zero, $t3
+addi $t8, $zero, 4
+mul $t7, $t7, $t8
+addi $t7, $t7, 148
+add $t7, $t7, $fp
+add $t9, $t7, $zero
+lw $t8, 0($t9)
+add $t4, $zero, $t8
+add $t5,$t1,$t4
+add $t7, $zero, $s0
+addi $t8, $zero, 4
+mul $t7, $t7, $t8
+addi $t7, $t7, 148
+add $t7, $t7, $fp
+add $t9, $t7, $zero
+add $t8, $zero, $t5
+sw $t8, 0($t9)
+add $t7, $zero, $s0
+addi $t8, $zero, 4
+mul $t7, $t7, $t8
+addi $t7, $t7, 148
+add $t7, $t7, $fp
+add $t9, $t7, $zero
+lw $t8, 0($t9)
+add $t6, $zero, $t8
+add $a0, $zero, $t6
+addi $v0, $zero, 11
+syscall
+addi $t0, $zero,-1
+sw $t1,664($fp)
+sub $t1,$s0,$t0
+add $s0, $zero, $t1
+addi $t2, $zero,10
+sw $t3,668($fp)
+add $t3, $zero, $zero
+sub $t9,$s0,$t2
+bgez $t9,jtag6
+addi $t3, $zero, 1
+jtag6:
+addi $t9, $zero, 1
+sw $t1,684($fp)
+sw $t3,688($fp)
+sw $t4,672($fp)
+sw $t5,676($fp)
+sw $t6,680($fp)
+beq $t3, $t9,tag22
+addi $v0, $zero, 5
+syscall
+add $s0, $zero, $v0
+add $t0, $zero, $zero
+beq $s0, $zero, jtag7
+addi $t0, $zero, 1
+jtag7:
+addi $t9, $zero, 0
+sw $t0,692($fp)
+beq $t0, $t9,tag23
+la $a0, string1
+addi $v0, $zero, 4
+syscall
+add $t8, $zero, $s0
+sw $t8, 0($sp)
+addi $sp, $sp, 4
+jal func_fact
+sw $v1, 696($fp)
+lw $t0, 696($fp)
+add $a0, $zero, $t0
+addi $v0, $zero, 1
+syscall
+sw $t0,696($fp)
+j, tag24
+tag23:
+addi $v0, $zero, 5
+syscall
+add $t0, $zero, $v0
+addi $v0, $zero, 5
+syscall
+add $t1, $zero, $v0
+la $a0, string2
+addi $v0, $zero, 4
+syscall
+la $a0, string3
+addi $v0, $zero, 4
+syscall
+add $t8, $zero, $t0
+sw $t8, 0($sp)
+addi $sp, $sp, 4
+add $t8, $zero, $t1
+sw $t8, 0($sp)
+addi $sp, $sp, 4
+sw $t0,52($fp)
+sw $t1,56($fp)
+jal func_add
+sw $v1, 700($fp)
+lw $t0, 700($fp)
+add $a0, $zero, $t0
+addi $v0, $zero, 1
+syscall
+sw $t0,700($fp)
+tag24:
+addi $t0, $zero,20
+add $s0, $zero, $t0
+tag28:
+addi $t0, $zero,10
+add $t1, $zero, $zero
+sub $t9,$s0,$t0
+blez $t9,jtag8
+addi $t1, $zero, 1
+jtag8:
+addi $t9, $zero, 0
+sw $t1,704($fp)
+beq $t1, $t9,tag25
+lw $t0, 704($fp)
+addi $t9, $zero, 1
+sw $t0,704($fp)
+beq $t0, $t9,tag26
+tag27:
+addi $t0, $zero,1
+sub $s0,$s0,$t0
+j, tag28
+tag26:
+la $a0, string4
+addi $v0, $zero, 4
+syscall
+add $t7, $zero, $s0
+addi $t8, $zero, 4
+mul $t7, $t7, $t8
+addi $t7, $t7, 188
+add $t7, $t7, $fp
+add $t9, $t7, $zero
+lw $t8, 0($t9)
+add $t0, $zero, $t8
+addi $t1, $zero,97
+sub $t2,$t0,$t1
+add $a0, $zero, $t2
+addi $v0, $zero, 1
+syscall
+sw $t0,708($fp)
+sw $t2,712($fp)
+j, tag27
+tag25:
+addi $v0, $zero, 5
+syscall
+add $s0, $zero, $v0
+addi $t0, $zero,0
+add $t1, $zero, $zero
+sub $t9,$s0,$t0
+bgez $t9,jtag9
+addi $t1, $zero, 1
+jtag9:
+addi $t9, $zero, 0
+sw $t1,716($fp)
+beq $t1, $t9,tag29
+j, tag30
+tag29:
+tag30:
+addi $t0, $zero,0
+add $t1, $zero, $zero
+sub $t9,$s0,$t0
+bne $t9,$zero,jtag10
+addi $t1, $zero, 1
+jtag10:
+addi $t9, $zero, 0
+sw $t1,720($fp)
+beq $t1, $t9,tag31
+j, tag32
+tag31:
+tag32:
+addi $t0, $zero,0
+add $t1, $zero, $zero
+sub $t9,$s0,$t0
+bltz $t9,jtag11
+addi $t1, $zero, 1
+jtag11:
+addi $t9, $zero, 0
+sw $t1,724($fp)
+beq $t1, $t9,tag33
+la $a0, string5
+addi $v0, $zero, 4
+syscall
+j, tag34
+tag33:
+tag34:
+addi $t0, $zero,100
+add $s0, $zero, $t0
+tag38:
+addi $t0, $zero,0
+add $t1, $zero, $zero
+sub $t9,$s0,$t0
+blez $t9,jtag12
+addi $t1, $zero, 1
+jtag12:
+addi $t9, $zero, 0
+sw $t1,728($fp)
+beq $t1, $t9,tag35
+lw $t0, 728($fp)
+addi $t9, $zero, 1
+sw $t0,728($fp)
+beq $t0, $t9,tag36
+tag37:
+addi $t0, $zero,1
+sub $s0,$s0,$t0
+j, tag38
+tag36:
+j, tag37
+tag35:
+addi $t0, $zero,1
+sub $t1, $zero,$t0
+add $s0, $zero, $t1
+sw $t1,732($fp)
+tag39:
+addi $t0, $zero,0
+add $t1, $zero, $zero
+sub $t9,$s0,$t0
+blez $t9,jtag13
+addi $t1, $zero, 1
+jtag13:
+addi $t9, $zero, 1
+sw $t1,736($fp)
+beq $t1, $t9,tag39
+addi $t0, $zero,1
+sub $t1, $zero,$t0
+add $t2, $zero, $zero
+sub $t9,$s0,$t1
+beq $t9,$zero, jtag14
+addi $t2, $zero, 1
+jtag14:
+addi $t9, $zero, 0
+sw $t1,744($fp)
+sw $t2,740($fp)
+beq $t2, $t9,tag40
+j, tag41
+tag40:
+tag41:
+jal func_Fnull1
+jal func_Fnull2
+jal func_Fnull3
+addi $t0, $zero,2
+add $t8, $zero, $t0
+sw $t8, 0($sp)
+addi $sp, $sp, 4
+addi $t1, $zero,3
+add $t8, $zero, $t1
+sw $t8, 0($sp)
+addi $sp, $sp, 4
+jal func_mult
+sw $v1, 748($fp)
+addi $t0, $zero,98
+add $t8, $zero, $t0
+sw $t8, 0($sp)
+addi $sp, $sp, 4
+jal func_move1
+sw $v1, 752($fp)
+lw $t0, 752($fp)
+lw $t1, 144($fp)
+add $t1, $zero, $t0
+la $a0, string6
+addi $v0, $zero, 4
+syscall
+add $a0, $zero, $t1
+addi $v0, $zero, 11
+syscall
+sw $t0,752($fp)
+sw $t1,144($fp)
+sw $s0,48($fp)
+sw $s0,140($fp)
+lw $ra, 0($fp)
+lw $s0, 12($fp)
+lw $s1, 16($fp)
+lw $s2, 20($fp)
+lw $s3, 24($fp)
+lw $s4, 28($fp)
+lw $s5, 32($fp)
+lw $s6, 36($fp)
+lw $s7, 40($fp)
+lw $sp, 8($fp)
+lw $fp, 4($fp)
+jr $ra
+end:

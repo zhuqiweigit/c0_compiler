@@ -1,0 +1,26 @@
+void hanota(int n, char a, char b, char c){
+    if(n == 1){
+      printf(" move", n);
+      printf(" from", a);
+      printf(" to", c);
+      printf("  ");
+    }
+
+    else{
+	hanota(n - 1, a, c, b);
+	printf(" move", n);
+        printf(" from", a);
+        printf(" to", c);
+	printf("  ");
+	hanota(n - 1, b, a, c);
+	
+    }
+
+}
+
+void main(){
+   int n;
+   scanf(n);
+   hanota(n, 'a', 'b', 'c');
+
+}

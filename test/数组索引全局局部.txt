@@ -1,0 +1,29 @@
+const int a = 3, b = 4, c=5;
+int d[10];
+char e[10];
+
+void main(){
+   int f[10], i, j, v;
+   char g[10];
+   i = 9;
+   j = 2;
+   scanf(v); 
+   d[a] = v; 
+   printf(d[a]);
+
+
+   scanf(v); 
+  e[i] = v;
+   printf(e[i]); 
+
+   scanf(v); 
+   f[b] = v;
+   printf(f[b]);
+
+
+   scanf(v); 
+   g[j] = v; 
+   printf(g[j]);
+
+
+}
